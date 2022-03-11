@@ -1,0 +1,167 @@
+.v-application,
+body {
+    font-family: IRANSans, sans-serif !important;
+    overflow: hidden;
+}
+
+.font {
+    font-family: inherit !important;
+}
+
+.h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.v-btn {
+    letter-spacing: 0 !important;
+}
+
+.flex-none {
+    flex: none !important;
+}
+
+.v-list-item {
+    flex: none !important;
+}
+
+.flex-auto {
+    flex: auto !important;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+body::-webkit-scrollbar,
+.pretty-scroll::-webkit-scrollbar,
+.v-menu__content::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+body::-webkit-scrollbar-thumb,
+.pretty-scroll::-webkit-scrollbar-thumb,
+.v-menu__content::-webkit-scrollbar-thumb {
+    background: #1867c0;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track,
+.pretty-scroll::-webkit-scrollbar-track,
+.v-menu__content::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.v-overlay--active {
+    height: 100vh;
+}
+
+.Vue-Toastification__toast-body {
+    font-family: IRANSans, sans-serif !important;
+}
+
+.v-navigation-drawer__content::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+.v-navigation-drawer__content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    transition: all 2s ease-in-out;
+}
+
+.sidebar {
+    position: relative;
+    &__icon {
+        position: absolute;
+        right: 10px;
+    }
+    background: transparent !important;
+    box-shadow: none !important;
+    &__list {
+        &__item {
+            border-left: 4px solid transparent;
+            &--active {
+                overflow: hidden;
+                border-left: 4px solid #3c8dbc;
+                background-color: rgba(255, 255, 255, 0.158);
+                padding-right: 14px !important;
+                &::before {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    .v-navigation-drawer__border {
+        display: none;
+    }
+    .scroll-style {
+        &::-webkit-scrollbar {
+            width: 3px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: rgb(209, 217, 255);
+            border-radius: 60px;
+        }
+    }
+}
+
+.v-application--is-ltr .v-list-item__action:first-child,
+.v-application--is-ltr .v-list-item__icon:first-child {
+    margin-right: 0;
+}
+
+.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled),
+.theme--dark.v-list-item {
+    color: #b8c7ce !important;
+    .v-icon {
+        color: #b8c7ce !important;
+    }
+}
+
+.v-list-item.v-list-item--link.theme--dark {
+    border-right: 3px solid transparent;
+}
+
+.v-list-item.v-list-item--link.theme--dark:hover {
+    border-right-color: #3c8dbc !important;
+}
+
+.theme--dark.v-list-item--active::before,
+.theme--dark.v-list-item--active::before {
+    background: #000;
+}
+
+.theme--dark.v-list-item--active {
+    border-right: 3px solid #3c8dbc !important;
+}
+
+nav .v-list-item__title {
+    font-family: inherit;
+}
+
+.v-list-group__header.v-list-item.v-list-item--active.v-list-item--link.theme--dark {
+    border: none !important;
+}
+
+.v-navigation-drawer__content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.v-navigation-drawer__content::-webkit-scrollbar-thumb {
+    background-color: #455a64;
+    border-radius: 10px;
+    transition: all 2s ease-in-out;
+}
